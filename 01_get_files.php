@@ -1,5 +1,8 @@
 <?php
-//opengeo%3Atable_00
+/*
+geo server doc - http://docs.geoserver.org/latest/en/user/services/wfs/index.html
+layer list - http://hpgis.rchss.sinica.edu.tw:8080/geoserver/ows?service=wfs&version=1.0.0&request=GetCapabilities
+*/
 
 $layers = array(
   'opengeo%3Atable_00' => '00歷史街區指認範圍_105',
