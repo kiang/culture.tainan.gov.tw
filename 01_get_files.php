@@ -9,7 +9,7 @@ if(!file_exists($jsonPath)) {
   mkdir($jsonPath, 0777, true);
 }
 
-for($i = 1; $i <=3; $i++) {
+for($i = 1; $i <=4; $i++) {
   $meta = json_decode(file_get_contents('http://hpgis.rchss.sinica.edu.tw:8080/geoexplorer/maps/' . $i), true);
   $baseUrl = 'http://hpgis.rchss.sinica.edu.tw:8080/geoserver/ows?service=wfs&version=1.0.0&request=getFeature&outputFormat=application/json&typeName=';
   $pairs = array(
